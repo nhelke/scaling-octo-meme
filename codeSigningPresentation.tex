@@ -76,7 +76,7 @@ head/foot}%
 \title[Public Key Cryptography \& Public Key Infrastructure]{Public Key Cryptography \& Public Key Infrastructure\\\large and How They Apply to Code Signing \& Provisioning Profiles}
 \subtitle{\#{}puggerslecture}
 \author{Nicholas Helke}
-\institute{Kaldor Ltd.}
+\institute{Kaldor Ltd}
 \subject{Brown Bag}
 
 \begin{document}
@@ -365,11 +365,11 @@ edge from parent/.style={black,->,>=latex,draw}
 \end{enumerate}
 \end{frame}
 
-\begin{frame}{Provisioning Profile}
+\begin{frame}{Provisioning Profiles}
 \begin{enumerate}
 \item A provisioning profile associates a bundle ID with authorised certificates, entitlements and devices.
 \item Apple signs the provisioning profile.
-\item Provisoining profiles provide the only means by which an iOS device will accept to run code that has not been signed by Apple.
+\item Only code signed by Apple or code with a valid provisioning profile will run on an iOS device.
 \end{enumerate}
 \end{frame}
 
