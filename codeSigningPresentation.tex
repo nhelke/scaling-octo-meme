@@ -198,7 +198,7 @@ where $a$ is the message to be ecrypted.
 
 \framebreak
 
-The first step to creating an RSA key-pair is to select $n$ and determine $\phi(n)$. Given a random $n$ it is generally feasable to compute $\phi(n)$. (It has exponential time-complexity in the general case.) Using the following two properties of Euler's totient function we can choose a number $n$ such that we can determine $\phi(n)$ cheaply:
+The first step to creating an RSA key-pair is to select $n$ and determine $\phi(n)$. Given a random $n$ it is generally not feasable to compute $\phi(n)$. (It has exponential time-complexity in the general case.) Using the following two properties of Euler's totient function we can choose a number $n$ such that we can determine $\phi(n)$ cheaply:
 \begin{eqnarray}
 \phi(p) = p-1&\text{if $p$ is prime}\\
 \phi(pq) = \phi(p)\phi(q)
